@@ -5,67 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Formulário de Orçamento</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="/icon/Logo Simples -01.png" type="image/png">
-  
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/icon/Logo Simples -01.png" type="image/png">
+
 </head>
+<div class="caixa">
 <body>
+    <div class="container">
+        <div class="form-image">
+            <img src="/img/serviço-01.jpg" alt="#">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
 
-  <div class="container">
-    <div class="form-img">
-        <img src="/img/serviço-01.jpg" alt="">
+                <div class="input-grup">
+                    <div class="input-box">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="name" placeholder="digite" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereço" name="endereço" placeholder="digite" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Telefone para contato</label>
+                        <input type="number" id="celular" name="cel" placeholder="digite" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail Principal</label>
+                        <input type="email" id="email" name="email" placeholder="digite" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="enviar">Enviar foto</label>
+                        <input type="text" id="#" name="name" placeholder="digite" required>
+                    </div>
+                </div>
+
+                <div class="gender-input">
+                    <div class="gender-title">
+                                <div class="gender-title">
+                                    <h3>Selecione o serviço</h3>
+                                </div>
+
+                                <div class="select">
+                                    <select name="" id="caixa-box">
+                                        <option value=""><a href="">Selecionar</a></option>
+                                        <option value="">Encanador</option>
+                                        <option value="">Eletricista</option>
+                                        <option value="">Pintor</option>
+                                        <option value="">Pedreiros</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="continue-button">
+                            <button><a href="/pg02.html">Enviar Contato</a></button>
+                        </div>
+            </form>      
     </div>
-    <div class="form">
-      <h1>Solicite Seu Orçamento</h1>
-      
-      <form action="#">  
-        <div class="input-grup" >  
-        <div class="input-box">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite aqui seu nome" required>
-    </div>
-
-
-    <div class="input-box" >
-        <label for="endereco">Endereço do Serviço:</label>
-        <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço para o serviço " required>
-    </div>
-
-
-    <div class="input-box">
-        <label for="email">E-mail para envio de Nota:</label>
-        <input type="email" id="email" name="email" placeholder="E-mail Principal" required>
-    </div>
-
-
-    <div class="input-box">
-        <label for="telefone">Telefone para contato:</label>
-        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx" required>
-    </div>
-
-
-    <div class="input-box">   
-        <label class="service" for="service">Selecione o serviço desejado</label>
-       
-        <div class="input-box">
-<select id="select" name="select">     
-  <option value="Eletricista">Eletricista</option>
-  <option value="Encanador">Encanador</option>
-  <option value="Pedreiro">Pedreiro</option>
-  <option value="outros">Outros</option>
-</select>
-</div>
-    </div>
-
-    <div>
-        <button type="submit"><a href="/pg02.html">Enviar Orçamento</a></button>
-    </div>
-    </div>
-      </form>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
 </body>
+</div>
+
 </html>
